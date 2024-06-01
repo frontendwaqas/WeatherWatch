@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+body {
+  background: #222;
+}
+.card {
+  width: 80%;
+  max-width: 370px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  margin: 100px auto 0px;
+  border-radius: 20px;
+  padding: 40px 28px;
+  text-align: center;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input {
+  width: 95%;
+  border: none;
+  outline: none;
+  margin-right: 13px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #333;
+}
+.search button {
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.search button img {
+  width: 20px;
+}
+.details {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 30px;
+}
+.details .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details .col img {
+  width: 40px;
+}
+.col div {
+  margin-left: 10px;
+}
+.weather img {
+  width: 160px;
+}
+.weather h1 {
+  font-size: 50px;
+  margin-top: -20px;
+  font-weight: 500;
+}
+.weather h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.weather {
+  display: none;
+}
